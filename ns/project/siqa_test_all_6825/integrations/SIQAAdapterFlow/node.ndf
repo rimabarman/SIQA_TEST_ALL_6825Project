@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">rimabarman</value>
-    <value name="lastModifiedDate">1754416132581</value>
+    <value name="lastModifiedDate">1754416210072</value>
     <value name="displayName">SIQAAdapterFlow</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -89,8 +89,7 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
-        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
-        </array>
+        <null name="mapSet"/>
         <array name="inputMap" type="object" depth="1" javaclass="java.lang.Object">
         </array>
         <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
