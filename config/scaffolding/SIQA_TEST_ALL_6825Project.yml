@@ -12,22 +12,6 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
 services:
-- serviceName: project.siqa_test_all_6825.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_1
-  packages:
-  - name: SIQA_TEST_ALL_6825Project
-    version: "1.0"
-  - name: WmJDBCAdapter
-    version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
-    wpmRegistry: licensed
-- serviceName: project.siqa_test_all_6825.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_2
-  packages:
-  - name: SIQA_TEST_ALL_6825Project
-    version: "1.0"
-  - name: WmJDBCAdapter
-    version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
-    wpmRegistry: licensed
 - serviceName: project.siqa_test_all_6825.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBInsertNew
   packages:
   - name: SIQA_TEST_ALL_6825Project
@@ -45,6 +29,14 @@ services:
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
 - serviceName: project.siqa_test_all_6825.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:TestDB2
+  packages:
+  - name: SIQA_TEST_ALL_6825Project
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.siqa_test_all_6825.integrations:Copy_SIQAAdapterFlow
   packages:
   - name: SIQA_TEST_ALL_6825Project
     version: "1.0"
@@ -94,7 +86,7 @@ configurationVariables:
   ? artConnection.SIQA_TEST_ALL_6825Project.project.siqa_test_all_6825.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.datasourceClass
   : com.mysql.cj.jdbc.MysqlDataSource
   ? artConnection.SIQA_TEST_ALL_6825Project.project.siqa_test_all_6825.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.password
-  : "{AES}D6/2AGfsSWDOcWCLrORnEQ=="
+  : "{AES}aYrXC43dTWsDUHRWG5mhTA=="
   ? artConnection.SIQA_TEST_ALL_6825Project.project.siqa_test_all_6825.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.startupBackoffSecs
   : "10"
   ? artConnection.SIQA_TEST_ALL_6825Project.project.siqa_test_all_6825.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.transactionType
@@ -112,7 +104,7 @@ configurationVariables:
   ? artConnection.SIQA_TEST_ALL_6825Project.project.siqa_test_all_6825.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.driverType
   : DriverTest
   ? artConnection.SIQA_TEST_ALL_6825Project.project.siqa_test_all_6825.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.password
-  : "{AES}D6/2AGfsSWDOcWCLrORnEQ=="
+  : "{AES}aYrXC43dTWsDUHRWG5mhTA=="
   ? artConnection.SIQA_TEST_ALL_6825Project.project.siqa_test_all_6825.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.blockingTimeout
   : "1000"
   ? artConnection.SIQA_TEST_ALL_6825Project.project.siqa_test_all_6825.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.serverName
