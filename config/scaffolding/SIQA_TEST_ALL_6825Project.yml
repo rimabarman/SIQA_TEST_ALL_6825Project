@@ -16,6 +16,11 @@ packages:
   gitUrl: https://github.com/Karthik-V-IBM-10
   gitUsername: Karthik-V-IBM-10
   gitBranch: main
+- name: SIQA_OriginTest_OnPremAssets
+  gitServerName: kvv
+  gitUrl: https://github.com/vijetadixit
+  gitUsername: Karthik-V-IBM-10
+  gitBranch: Test2
 services:
 - serviceName: project.siqa_test_all_6825.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBInsertNew
   packages:
